@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="NASA Microsite Launches">
+        <meta name="keywords" content="NASA, launches, space, rocket">
+        <meta name="author" content="Mathilde Solheim Grøtta">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="shortcut icon" href="../images/favicon.ico">
+        <title> NASA | Launches </title>
+    </head>
+
+    <body>
+        <header>
+            <div id="header_container">
+                <div id="logo_nav">
+                    <div id="logo">
+                        <a href="index.html"> <img src="../images/nasa-logo.png" alt="NASA Logo"> </a>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li> <a href="index.html">Home</a> </li>
+                            <li> <a href="about.html">About</a> </li>
+                            <li id="current"> <a href="launches.html">Launches</a> </li>
+                            <li> <a href="contact.html">Contact</a> </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div id="launches_container">
+                <h1> Upcoming Launches </h1>
+                <div id="date_picker">
+                    Pick a Launch Date:
+                    <input type="date" name="calendar" id="calendar">
+                    <input type="submit" value="Search" id="search_btn">
+                </div>
+                <div id="launches_api">
+
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <a href="https://www.nasa.gov/" rel="noopener noreferrer" target="_blank"> <img id="homepage" src="../images/nasa-logo.png" alt="NASA Logo"> </a>
+            <div id="social_media">
+                <a href="https://www.facebook.com/NASA/" rel="noopener noreferrer" target="_blank"> <img src="../images/facebook.png" alt="Facebook"> </a>
+                <a href="https://www.instagram.com/nasa/" rel="noopener noreferrer" target="_blank"> <img src="../images/instagram.png" alt="Instagram"> </a>
+                <a href="https://twitter.com/nasa" rel="noopener noreferrer" target="_blank"> <img src="../images/twitter.png" alt="Twitter"> </a>
+            </div>
+        </footer>
+        <script src="../scripts/launches.js"></script>
+    </body>
+</html>
